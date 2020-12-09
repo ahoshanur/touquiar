@@ -1,0 +1,91 @@
+/* Font */
+@font-face {
+    font-family: 'Solomon Sans Normal';
+    src: url(font/Solomon\ Sans\ Normal.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Solomon Sans Bold';
+    src: url(font/Solomon\ Sans\ Bold.otf);
+    font-style: normal;
+}
+
+
+/* Default */
+* {
+    font-family: 'Solomon Sans Normal', sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+a {
+    transition: .5s ease-in-out;
+}
+.container {
+    max-width: 1000px;
+}
+.color-it {
+    color: #6f28ff;
+}
+.btn-primary {
+    background-color: #6F28FF;
+}
+
+
+/* Header */
+.header {
+    background-color: #B2D6E6;
+}
+.navbar-brand {
+    width: 200px;
+}
+.header-menu li {
+    text-align: right;
+}
+.header-menu a {
+    padding: 8px 12px;
+    font-size: 1.14rem;
+}
+
+
+/* Banner */
+.bold-text {
+    font-family: 'Solomon Sans Bold', sans-serif;
+}
+.banner {
+    background-image: url(img/touquiar\ background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content-wrap {
+    height: 90vh;
+}
+.banner-social {
+    left: 0;
+    bottom: 0;
+}
+
+
+/* Contact */
+.contact {
+    background-image: url(img/contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+}
+.footer p {
+    color: white;
+}
